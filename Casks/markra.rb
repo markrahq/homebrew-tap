@@ -1,9 +1,9 @@
 cask "markra" do
   arch arm: "arm64", intel: "x64"
 
-  version "2.11.1"
-  sha256 arm: "ce34c170f13444c39794f1d9fb7b82597e34bfeb138602a2c8d4aa3d28333176",
-         intel: "04b9c8ab1062e486aed29c38855f3aca9f4eca169a1738142659ac33473770fa"
+  version "2.11.2"
+  sha256 arm: "719777d973bf6981de93823b8473600209419b8c40243c040aeb998557094642",
+         intel: "fa41011c971ba5124a8321cde07c038247bbff929cb7dfcba3c23a8ccf7216f4"
 
   url "https://github.com/markrahq/markra/releases/download/v#{version}/Markra_#{version}_macos_#{arch}.dmg"
 
